@@ -6,14 +6,28 @@ public class Main {
     public static void main(String[] args) {
         // Crear el diccionario Español-Inglés
         Map<String, String> diccionario = new HashMap<>();
-        diccionario.put("gato", "cat");
-        diccionario.put("perro", "dog");
-        diccionario.put("casa", "house");
-        diccionario.put("sol", "sun");
-        diccionario.put("libro", "book");
-        // Añade más palabras según sea necesario
+       diccionario.put("gato", "cat");
+        diccionario.put("día", "day");
+        diccionario.put("mundo", "world");
+        diccionario.put("vida", "life");
+        diccionario.put("bolsa", "bag");
+        diccionario.put("trabajo", "job");
+        diccionario.put("queso", "chesee");
+        diccionario.put("nieve", "snow");
+        diccionario.put("pollo", "cicken");
+        diccionario.put("persona", "person");
+        diccionario.put("piedra", "stone");
+        diccionario.put("pastel", "cake");
+        diccionario.put("mar", "sea");
+        diccionario.put("nube", "cloud");
+        diccionario.put("anillo", "ring");
+        diccionario.put("amor", "love");
+        diccionario.put("esperanza", "hope");
+        diccionario.put("coraje", "courage");
+        diccionario.put("confianza", "confidence");
+        diccionario.put("libertda", "fredom");
         
-        Scanner scanner = new Scanner(System.in);
+          Scanner scanner = new Scanner(System.in);
         
         while (true) {
             System.out.print("Ingrese una palabra en español (o 'salir' para terminar): ");

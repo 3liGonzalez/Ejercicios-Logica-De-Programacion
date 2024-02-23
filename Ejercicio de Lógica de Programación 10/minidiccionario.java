@@ -8,26 +8,26 @@ public class Main {
     public static void main(String[] args) {
         // Crear el diccionario Español-Inglés
         Map<String, String> diccionario = new HashMap<>();
-        diccionario.put("casa", "house");
-        diccionario.put("perro", "dog");
         diccionario.put("gato", "cat");
-        diccionario.put("sol", "sun");
-        diccionario.put("luna", "moon");
-        diccionario.put("agua", "water");
-        diccionario.put("árbol", "tree");
-        diccionario.put("coche", "car");
-        diccionario.put("manzana", "apple");
-        diccionario.put("computadora", "computer");
-        diccionario.put("libro", "book");
-        diccionario.put("mesa", "table");
-        diccionario.put("silla", "chair");
-        diccionario.put("pelota", "ball");
-        diccionario.put("ventana", "window");
-        diccionario.put("puerta", "door");
-        diccionario.put("reloj", "clock");
-        diccionario.put("zapato", "shoe");
-        diccionario.put("camisa", "shirt");
-        diccionario.put("pantalón", "pants");
+        diccionario.put("día", "day");
+        diccionario.put("mundo", "world");
+        diccionario.put("vida", "life");
+        diccionario.put("bolsa", "bag");
+        diccionario.put("trabajo", "job");
+        diccionario.put("queso", "chesee");
+        diccionario.put("nieve", "snow");
+        diccionario.put("pollo", "cicken");
+        diccionario.put("persona", "person");
+        diccionario.put("piedra", "stone");
+        diccionario.put("pastel", "cake");
+        diccionario.put("mar", "sea");
+        diccionario.put("nube", "cloud");
+        diccionario.put("anillo", "ring");
+        diccionario.put("amor", "love");
+        diccionario.put("esperanza", "hope");
+        diccionario.put("coraje", "courage");
+        diccionario.put("confianza", "confidence");
+        diccionario.put("libertda", "fredom");
         
         // Seleccionar 5 palabras al azar
         String[] palabrasEspañol = diccionario.keySet().toArray(new String[0]);
